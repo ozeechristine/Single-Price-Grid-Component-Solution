@@ -23,8 +23,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL:(https://ozeechristine.github.io/Single-Price-Grid-Component-Solution/)
+- Solution URL: (https://your-solution-url.com](https://github.com/ozeechristine/Single-Price-Grid-Component-Solution)
+- Live Site URL: (https://ozeechristine.github.io/Single-Price-Grid-Component-Solution/)
 
 
 ### Built with

@@ -1,0 +1,241 @@
+:root {
+    --Cyan: hsl(179, 62%, 43%);
+    --BrightYellow: hsl(71, 73%, 54%);
+    --LightGray: hsl(204, 43%, 93%);
+    --GrayishBlue: hsl(218, 22%, 67%);
+    --light-cyan: hsl(179, 62%, 46%);
+    --White: hsl(0, 0%, 100%);
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Karla", sans-serif;
+    font-size: 16px;
+    background-color: var(--LightGray);
+    height: 100vh;
+    width: 100vw;
+}
+
+.subcard {
+    background-color: var(--White);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 320px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.intro {
+    padding-left: 1.2rem ;
+}
+
+.intro>h2 {
+    font-size:1.3rem ;
+    color: var(--Cyan);
+    padding-top: 1.3rem;
+    font-weight: 700;
+    
+}
+
+.intro>h3 {
+    font-size: 1.05rem;
+    color: var(--BrightYellow);
+    padding-top: 1.2rem;
+    font-weight: 700;
+    
+}
+
+.intro>p {
+    font-size: 0.95rem ;
+    color: var(--GrayishBlue);
+    line-height: 1.6 ;
+    padding: 1.2rem 0;
+}
+
+.pricecard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 320px;
+   
+}
+
+.monthlysub {
+    background-color: var(--Cyan);
+    width: 320px;
+}
+
+.monthlysub>h3 {
+    color: var(--White);
+    font-size: 1.1rem ;
+    padding-top: 1.25rem;
+    padding-left: 1.2rem ;
+    font-weight: 700;
+}
+
+.monthlysub>p {
+    color: var(--LightGray);
+    font-size: 1rem;
+    padding-top: 0.1rem ;
+    padding-left: 1.2rem;
+    font-weight: 200;
+}
+
+.prices {
+    display: flex;
+    align-items: center;
+    color: var(--LightGray);
+}
+
+.price {
+    font-size: 1.9rem;
+    color: var(--White);
+    padding-top: 1.05rem;
+    padding-left: 1.2rem ;
+    font-weight: 700;
+}
+
+.month {
+   align-self: center;
+   padding-top: 0.55rem;
+   font-size: 1rem ;
+   padding-left: 0.5rem;
+   font-weight: 50;
+}
+
+.signup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    width: 87%;
+    border: none;
+    color: var(--White);
+    font-weight: 400;
+    font-size: 0.9rem ;
+    border-radius: 5px;
+    font-family: "Karla", sans-serif;
+    background-color: var(--BrightYellow);
+    padding: 0.7rem 1.6rem ;
+    margin: 1.9rem 0.2rem 1rem 0.2rem;
+}
+
+.button:hover {
+    background-color: var(--GrayishBlue);
+}
+
+.benefits {
+    background-color: var(--light-cyan);
+    width: 320px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding-bottom: 1.5rem;
+}
+
+.benefits>h3 {
+    color: var(--White) ;
+    font-size: 1.2rem;
+    font-weight: 700 ;
+    padding: 1.2rem 0rem 1.2rem 1.2rem ;
+    
+}
+
+.benefits>p {
+    color: var(--White) ;
+    font-size: 0.9rem ;
+    font-weight: 100 ;
+    line-height: 1.4rem;
+    padding-left: 1.2rem;
+}
+
+.attribution { 
+    color: var(--White);
+    font-size: 14px; 
+    text-align: center; 
+}
+
+.attribution a { 
+    color: var(--BrightYellow);
+    text-decoration: none;
+}
+
+
+@media (min-width:768px) {
+
+.subcard {
+       width: 580px;
+       
+    }
+
+.pricecard {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 580px;
+        
+    }
+
+.benefits {
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 5px;
+    height: 248px;
+}
+
+.benefits>h3 {
+    padding: 1.6rem 0rem 1.2rem 1.6rem ;
+}
+
+.benefits>p{
+    padding-left: 1.6rem; 
+}
+
+.monthlysub>h3{
+    padding-top: 1.6rem;
+}
+
+.monthlysub>p{
+    padding-top: 0.5rem;
+}
+
+.monthlysub {
+        height: 248px;
+        border-bottom-left-radius: 5px;
+    }
+
+    .price {
+padding-top: 1.2rem;
+    }
+.month {
+    padding-top: 0.88rem;
+}
+    
+button {
+    width: 83%;
+    padding: 1rem 1.1rem ;
+    margin: 2.3rem 0.2rem 1rem 0.2rem;
+}
+
+.intro>p{
+    font-size: 1rem;
+}
+
+.intro>h3 {
+    font-size: 1.1rem;
+}
+}
